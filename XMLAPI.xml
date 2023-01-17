@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<methodCall>
+	<methodName>achat</methodName>
+	<params>
+		<param>
+			<value>
+				<struct>
+					<member>
+						<name>identification</name>
+						<value>
+							<struct>
+								<member>
+									<name>utilisateur</name>
+									<value>
+										<string>USER</string>
+									</value>
+								</member>
+								<member>
+									<name>motDePasse</name>
+									<value>
+										<string>PASSWORD</string>
+									</value>
+								</member>
+							</struct>
+						</value>
+					</member>
+				</struct>
+			</value>
+		</param>
+		<param>
+			<value>
+				<struct>
+					<member>
+						<name>ref demande</name>
+						<value>
+							<struct>
+								<member>
+									<name>produit</name>
+									<value>
+										<struct>
+											<member>
+												<name>code</name>
+												<value>
+													<string>ssl</string>
+												</value>
+											</member>
+											<member>
+												<name>dureeVie</name>
+												<value>
+													<int>1</int>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>requete</name>
+									<value>
+										<struct>
+											<member>
+												<name>logiciel</name>
+												<value>
+													<string>ModSSL</string>
+												</value>
+											</member>
+											<member>
+												<name>CSR</name>
+												"
+												<value>
+													<string>
+-----BEGIN NEW CERTIFICATE REQUEST-----
+MIID4TCCAskCAQAwcDEXMBUGA1UECAwOSGF1dHMtZGUtU2VpbmUxEjAQBgNVBAoM
+CUdSVGdheiBTQTEWMBQGA1UEBwwNQm9pcy1Db2xvbWJlczELMAkGA1UEBhMCRlIx
+HDAaBgNVBAMME3Rlc3RBUEkyLmdydGdhei5jb20wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDmPNmuUmMZ+W/It90/muNrN8m2hzlfRLCtw+1/6o71otwO
+igxVQ0kKFANUrgldP9UN3x0iTYCyR3kAgjnXbXtplUNysNFX54BdnNp2DPl5eamF
+oaFjnFhwUThctvEaA148i0phFoSb4Yrg7Lifkwp3HMdI6o8pt1WgLOk490nstTK1
+N8L/cBs8rt06OqavRcH9imakwyuhQLaS059cPY2yW57dhK76gz7RyRee85UnDZSq
+pvuqb/RmB7PVZJS5M1/dU5lfMFobCmpjwww86JvznEliMNiQhoOTEgQ+kgJUzxjB
+HbO7lBK4zNR+ED8vk8FM/7tR5eAWPvRtJ3zYh5K1AgMBAAGgggEqMBwGCisGAQQB
+gjcNAgMxDhYMMTAuMC4xOTA0Mi4yMEUGCSsGAQQBgjcVFDE4MDYCAQUMG1A2MDAw
+NTAyOS50ZXJhLmluZnJhZ2F6LmNvbQwLVEVSQVw3ODQzUUMMB01NQy5FWEUwWwYJ
+KoZIhvcNAQkOMU4wTDArBgNVHREEJDAigg9zYW4xLmdydGdhei5jb22CD3NhbjIu
+Z3J0Z2F6LmNvbTAdBgNVHQ4EFgQUiMHw/Dm2IHMRng5dRAzrItWU/aAwZgYKKwYB
+BAGCNw0CAeIGDCfdsFDSfzAzaeXZAWXeasqdQSDAqsYAdAAgAFMAbwBmAHQAdwBh
+AHIAZQAgAEsAZQB5ACAAUwB0AG8AcgBhAGcAZQAgAFAAcgBvAHYAaQBkAGUAcgMB
+ADANBgkqhkiG9w0BAQsFAAOCAQEAjsAWt5/hLKFEV8HLe47i0t7LSISYfA5m41In
+fJjf2Q16/UEOd/4qbQBHhAcfUOfQ1GknRgaXyFHsW+nwSLTxcT4nLJPRWSf0W3je
+HzB8KoO0jJUN7BtHKCkfHKzWkIMbHZ5z08e+jmhxRoSC+g2EvE9c3HkqkGLY7xmH
+QXhdKQjd3Up5sNygxJMWwU+eEcjs/vBXgxuGrnNRjpwuhP6tdMIDfwiME4DDoOFU
+AWF9abahJEO3a6uzqxE0IUD8PO9iMXSeSdkkVVc5fpRMnagExab2qkFBkXwEsh70
+q9ceMVzj0IAxcgIx2MglaJYDFH8Tu3FWiC5+XxYOc9uwmArdOA==
+-----END NEW CERTIFICATE REQUEST-----
+													</string>
+												</value>
+												"
+											</member>
+											<member>
+												<name>hashage</name>
+												<value>
+													<string>SHA256-FULL-CHAIN</string>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>organisation</name>
+									<value>
+										<struct>
+											<member>
+												<name>siren</name>
+												<value>
+													<string>SIREN</string>
+												</value>
+											</member>
+											<member>
+												<name>typeOrg</name>
+												<value>
+													<string>TYPE</string>
+												</value>
+											</member>
+											<member>
+												<name>nom</name>
+												<value>
+													<string>NAME</string>
+												</value>
+											</member>
+											<member>
+												<name>adresse1</name>
+												<value>
+													<string>1 rue Paris</string>
+												</value>
+											</member>
+											<member>
+												<name>ville</name>
+												<value>
+													<string>Paris</string>
+												</value>
+											</member>
+											<member>
+												<name>codePostal</name>
+												<value>
+													<string>75000</string>
+												</value>
+											</member>
+											<member>
+												<name>pays</name>
+												<value>
+													<string>FR</string>
+												</value>
+											</member>
+											<member>
+												<name>telephone</name>
+												<value>
+													<string>+33-1-0000-0000</string>
+												</value>
+											</member>
+											<member>
+												<name>codeNaf</name>
+												<value>
+													<string>12.34Z</string>
+												</value>
+											</member>
+											<member>
+												<name>numTVA</name>
+												<value>
+													<string>FR1000000000</string>
+												</value>
+											</member>								
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>contactAdm</name>
+									<value>
+										<struct>
+											<member>
+												<name>civiliteAdm</name>
+												<value>
+													<int>1</int>
+												</value>
+											</member>
+											<member>
+												<name>nomAdm</name>
+												<value>
+													<string>SMITH</string>
+												</value>
+											</member>
+											<member>
+												<name>prenomAdm</name>
+												<value>
+													<string>John</string>
+												</value>
+											</member>
+											<member>
+												<name>fonctionAdm</name>
+												<value>
+													<string>CEO</string>
+												</value>
+											</member>
+											<member>
+												<name>telAdm</name>
+												<value>
+													<string>+33-6-0000-0000</string>
+												</value>
+											</member>
+											<member>
+												<name>emailAdm</name>
+												<value>
+													<string>john.smith@company.com</string>
+												</value>
+											</member>
+											<member>
+												<name>langueComAdm</name>
+												<value>
+													<string>FR</string>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>paiement</name>
+									<value>
+										<struct>
+											<member>
+												<name>modePaiement</name>
+												<value>
+													<string>pre</string>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>divers</name>
+									<value>
+										<struct>
+											<member>
+												<name>refClient</name>
+												<value>
+													<string>myref</string>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+							</struct>
+						</value>
+					</member>
+				</struct>
+			</value>
+		</param>
+	</params>
+</methodCall>

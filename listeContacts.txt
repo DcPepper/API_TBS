@@ -1,0 +1,15 @@
+civAdm:1
+nomAdm:John
+prenomAdm:Smith
+fonctionAdm:CEO
+telAdm:+33-7-0000-0000
+emailAdm:john.smith@company.com
+langueComAdm:FR
+
+civAdm:1
+nomAdm:Joe
+prenomAdm:Toto
+fonctionAdm:PO
+telAdm:+33-7-0000-0000
+emailAdm:joe.toto@company.com
+langueComAdm:FR

@@ -1,0 +1,257 @@
+<methodCall>
+	<methodName>achat</methodName>
+	<params>
+		<param>
+			<value>
+				<struct>
+					<member>
+						<name>identification</name>
+						<value>
+							<struct>
+								<member>
+									<name>utilisateur</name>
+									<value>
+										<string>GRT_API_SB_U1</string>
+									</value>
+								</member>
+								<member>
+									<name>motDePasse</name>
+									<value>
+										<string>DTHBC2virx;-2/i%RkWs+</string>
+									</value>
+								</member>
+							</struct>
+						</value>
+					</member>
+				</struct>
+			</value>
+		</param>
+		<param>
+			<value>
+				<struct>
+					<member>
+						<name>ref demande</name>
+						<value>
+							<struct>
+								<member>
+									<name>produit</name>
+									<value>
+										<struct>
+											<member>
+												<name>code</name>
+												<value>
+													<string>ssl</string>
+												</value>
+											</member>
+											<member>
+												<name>dureeVie</name>
+												<value>
+													<int>1</int>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>requete</name>
+									<value>
+										<struct>
+											<member>
+												<name>logiciel</name>
+												<value>
+													<string>ModSSL</string>
+												</value>
+											</member>
+											<member>
+												<name>CSR</name>
+												"
+												<value>
+													<string>-----BEGIN NEW CERTIFICATE REQUEST-----
+MIID4TCCAskCAQAwcDEXMBUGA1UECAwOSGF1dHMtZGUtU2VpbmUxEjAQBgNVBAoM
+CUdSVGdheiBTQTEWMBQGA1UEBwwNQm9pcy1Db2xvbWJlczELMAkGA1UEBhMCRlIx
+HDAaBgNVBAMME3Rlc3RBUEkyLmdydGdhei5jb20wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDmPNmuUmMZ+W/It90/muNrN8m2hzlfRLCtw+1/6o71otwO
+igxVQ0kKFANUrgldP9UN3x0iTYCyR3kAgjnXbXtplUNysNFX54BdnNp2DPl5eamF
+oaFjnFhwUThctvEaA148i0phFoSb4Yrg7Lifkwp3HMdI6o8pt1WgLOk490nstTK1
+N8L/cBs8rt06OqavRcH9imakwyuhQLaS059cPY2yW57dhK76gz7RyRee85UnDZSq
+pvuqb/RmB7PVZJS5M1/dU5lfMFobCmpjwww86JvznEliMNiQhoOTEgQ+kgJUzxjB
+HbO7lBK4zNR+ED8vk8FM/7tR5eAWPvRtJ3zYh5K1AgMBAAGgggEqMBwGCisGAQQB
+gjcNAgMxDhYMMTAuMC4xOTA0Mi4yMEUGCSsGAQQBgjcVFDE4MDYCAQUMG1A2MDAw
+NTAyOS50ZXJhLmluZnJhZ2F6LmNvbQwLVEVSQVw3ODQzUUMMB01NQy5FWEUwWwYJ
+KoZIhvcNAQkOMU4wTDArBgNVHREEJDAigg9zYW4xLmdydGdhei5jb22CD3NhbjIu
+Z3J0Z2F6LmNvbTAdBgNVHQ4EFgQUiMHw/Dm2IHMRng5dRAzrItWU/aAwZgYKKwYB
+BAGCNw0CAjFYMFYCAQAeTgBNAGkAYwByAG8AcwBvAGYAdAAgAFMAbwBmAHQAdwBh
+AHIAZQAgAEsAZQB5ACAAUwB0AG8AcgBhAGcAZQAgAFAAcgBvAHYAaQBkAGUAcgMB
+ADANBgkqhkiG9w0BAQsFAAOCAQEAjsAWt5/hLKFEV8HLe47i0t7LSISYfA5m41In
+fJjf2Q16/UEOd/4qbQBHhAcfUOfQ1GknRgaXyFHsW+nwSLTxcT4nLJPRWSf0W3je
+HzB8KoO0jJUN7BtHKCkfHKzWkIMbHZ5z08e+jmhxRoSC+g2EvE9c3HkqkGLY7xmH
+QXhdKQjd3Up5sNygxJMWwU+eEcjs/vBXgxuGrnNRjpwuhP6tdMIDfwiME4DDoOFU
+AWF9abahJEO3a6uzqxE0IUD8PO9iMXSeSdkkVVc5fpRMnagExab2qkFBkXwEsh70
+q9ceMVzj0IAxcgIx2MglaJYDFH8Tu3FWiC5+XxYOc9uwmArdOA==
+-----END NEW CERTIFICATE REQUEST-----
+</string>
+												</value>
+												"
+											</member>
+											<member>
+												<name>hashage</name>
+												<value>
+													<string>SHA256-FULL-CHAIN</string>
+												</value>
+											</member>
+										<member><name>domainePrincipal</name><value><string>testAPI2.grtgaz.com</string></value></member><member><name>domaines</name><value><string>san1.grtgaz.com
+san2.grtgaz.com</string></value></member><member><name>adresseDVC</name><value><string>nomdedomaine@grtgaz.com
+nomdedomaine@grtgaz.com
+nomdedomaine@grtgaz.com</string></value></member></struct>
+									</value>
+								</member>
+								<member>
+									<name>organisation</name>
+									<value>
+										<struct>
+											<member>
+												<name>siren</name>
+												<value>
+													<string>440117620</string>
+												</value>
+											</member>
+											<member>
+												<name>typeOrg</name>
+												<value>
+													<string>FRRCS</string>
+												</value>
+											</member>
+											<member>
+												<name>nom</name>
+												<value>
+													<string>GRTGAZ</string>
+												</value>
+											</member>
+											<member>
+												<name>adresse1</name>
+												<value>
+													<string>IMMEUBLE BORA 6 RUE RAOUL NORDLING</string>
+												</value>
+											</member>
+											<member>
+												<name>ville</name>
+												<value>
+													<string>BOIS-COLOMBES</string>
+												</value>
+											</member>
+											<member>
+												<name>codePostal</name>
+												<value>
+													<string>92270</string>
+												</value>
+											</member>
+											<member>
+												<name>pays</name>
+												<value>
+													<string>FR</string>
+												</value>
+											</member>
+											<member>
+												<name>telephone</name>
+												<value>
+													<string>+33-1-5566-4000</string>
+												</value>
+											</member>
+											<member>
+												<name>codeNaf</name>
+												<value>
+													<string>49.50Z</string>
+												</value>
+											</member>
+											<member>
+												<name>numTVA</name>
+												<value>
+													<string>FR27440117620</string>
+												</value>
+											</member>								
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>contactAdm</name>
+									<value>
+										<struct>
+											<member>
+												<name>civiliteAdm</name>
+												<value>
+													<int>1</int>
+												</value>
+											</member>
+											<member>
+												<name>nomAdm</name>
+												<value>
+													<string>GENEST</string>
+												</value>
+											</member>
+											<member>
+												<name>prenomAdm</name>
+												<value>
+													<string>Thomas</string>
+												</value>
+											</member>
+											<member>
+												<name>fonctionAdm</name>
+												<value>
+													<string>Consultant PKI</string>
+												</value>
+											</member>
+											<member>
+												<name>telAdm</name>
+												<value>
+													<string>+33-7-6003-5022</string>
+												</value>
+											</member>
+											<member>
+												<name>emailAdm</name>
+												<value>
+													<string>thomas.genest@external.grtgaz.com</string>
+												</value>
+											</member>
+											<member>
+												<name>langueComAdm</name>
+												<value>
+													<string>FR</string>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>paiement</name>
+									<value>
+										<struct>
+											<member>
+												<name>modePaiement</name>
+												<value>
+													<string>pre</string>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+								<member>
+									<name>divers</name>
+									<value>
+										<struct>
+											<member>
+												<name>refClient</name>
+												<value>
+													<string>S210909_000001</string>
+												</value>
+											</member>
+										</struct>
+									</value>
+								</member>
+							</struct>
+						</value>
+					</member>
+				</struct>
+			</value>
+		</param>
+	</params>
+</methodCall>
